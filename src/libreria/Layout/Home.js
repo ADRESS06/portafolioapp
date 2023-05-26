@@ -1,11 +1,10 @@
 import React from 'react'
-import Contenedor from '../Components/Contenedor'
 
 
-const Home = () => {
+const Home = (props,{img}) => {
   return (
-    <div>
-      <Contenedor bg="rgb(13, 50, 94)" width="100vw" height="88vh"/>
+    <div style={{backgroundColor:props.bg,backgroundImage:{img},height:props.height,width:props.width}}>
+      
     </div>
   )
 }

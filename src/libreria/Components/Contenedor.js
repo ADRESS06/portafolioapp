@@ -1,4 +1,5 @@
 import React from 'react'
+import '../css/estilos.css'
 
 const Contenedor = (props,{img}) => {
   return (
